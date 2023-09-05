@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+.pnpm-store/
+pnpm-lock.yaml
+yarn-error.log
+
+# Optional eslint cache
+.eslintcache
+
+# Optional editor/IDE files
+.idea/
+.vscode/
+
+# Mac-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Environment variables
+.env
