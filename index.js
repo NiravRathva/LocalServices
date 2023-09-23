@@ -12,7 +12,7 @@ import cors from "cors";
 const app = express();
 
 const corsOptions ={
-  origin:'http://https://orange-intern-alnyj.ineuron.app:3000', 
+  origin:'https://local-services-frontend-niravrathva.vercel.app/', 
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200
 }
