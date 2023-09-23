@@ -11,12 +11,8 @@ import stripeRoutes from "./Routes/stripe.js";
 import cors from "cors";
 const app = express();
 
-const corsOptions ={
-  origin:'https://local-services-frontend-niravrathva.vercel.app/', 
-  credentials:true,            //access-control-allow-credentials:true
-  optionSuccessStatus:200
-}
-app.use(cors(corsOptions));
+
+app.use(cors());
 dotenv.config();
 //connecting to mongodb
 mongoose
